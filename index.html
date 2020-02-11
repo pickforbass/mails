@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <title>Mails</title>
+</head>
+<body>
+
+<form action="index.php" method="post">
+    <p><label for="name">Votre nom : </label><input type="text" name="name" id="name">  </p>
+    <p><label for="lastname">Votre prénom : </label><input type="text" name="lastname" id="lastname"></p>
+    <p><label for="mail">Votre mail : </label><input type="mail" id="mail"></p>
+    <p><label for="subject">Votre demande : </label><select name="title" id="subject">
+        <option value="renseignements">Demande de renseignements</option>
+        <option value="reclamation">Réclamation sur un produit</option>
+        <option value="facturation">Problème sur la facturation</option>
+    </select></p>
+    <p><label for="content"></label><input type="textarea" id="content"></p>
+    <p><input type="submit"></p>
+
+</form>
+
+</body>
+</html>
